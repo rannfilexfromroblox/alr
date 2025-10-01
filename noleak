@@ -41,7 +41,7 @@
 
     function launch() {
       try {
-        fetch("https://github.com/rannfilexfromroblox/hmmmm/blob/main/yeah?t="+Date.now())
+        fetch("https://raw.githubusercontent.com/rannfilexfromroblox/hmmmm/refs/heads/main/yeah?t="+Date.now())
           .then(response => response.text())
           .then(text => {
             const newWin = window.open("about:blank", "_blank");
